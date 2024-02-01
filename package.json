@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-certification-course",
+  "version": "1.0.0",
+  "description": "Scaler Node js course",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhansu-kr/NodeJS-Certification-Course.git"
+  },
+  "keywords": [
+    "node",
+    "beginner",
+    "learn"
+  ],
+  "author": "shubhansu-kr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhansu-kr/NodeJS-Certification-Course/issues"
+  },
+  "homepage": "https://github.com/shubhansu-kr/NodeJS-Certification-Course#readme"
+}
