@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/shubhansu-kr/NodeJS-Certification-Course/issues"
   },
-  "homepage": "https://github.com/shubhansu-kr/NodeJS-Certification-Course#readme"
+  "homepage": "https://github.com/shubhansu-kr/NodeJS-Certification-Course#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
