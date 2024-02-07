@@ -8,9 +8,7 @@
  * @param {Object} res - Express response object
  * @param {Function} next - Express next function
  */
-const requestLoggerMiddleware = (req, res, next) => {
-  // Your implementation here
-
+const requestLoggerMiddleware = async (req, res, next) => {
   const timestamp = new Date().toISOString();
   const { method, url, ip } = req;
   console.log(` ${timestamp} ${method} ${url} ${ip}`);
