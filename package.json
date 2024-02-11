@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/shubhansu-kr/NodeJS-Certification-Course#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
