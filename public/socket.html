@@ -13,7 +13,7 @@
     <div id="receivedMessages"></div>
 
     <script>
-        const socket = new WebSocket('ws://localhost:3000');
+        const socket = new WebSocket('ws://localhost:5500');
         socket.onopen = () => {
             console.log('WebSocket connection established');
         };
@@ -38,6 +38,9 @@
                 messageInput.value = ''; 
             }
         });
+
+        const changeData = {};
+        socket.send(JSON.stringify(changeData));
     </script>
 </body>
 </html>
